@@ -1,7 +1,9 @@
 package contas
 
+import c "github.com/banco/clientes"
+
 type ContaCorrente struct {
-	Titular       string
+	Titular       c.Titular
 	NumeroAgencia int
 	NumeroConta   int
 	Saldo         float64
